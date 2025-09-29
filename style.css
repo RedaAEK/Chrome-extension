@@ -17,7 +17,8 @@ button {
     background-color: #5f9341;
     padding: 0.5rem 2rem;
     color: white;
-    border: none;
+    border: 1px solid #5f9341;
+
 }
 li {
 list-style-type: none;
@@ -29,4 +30,11 @@ a{
 ul {
     margin-top: 15px;
     padding-left: 0;
+}
+.rmv{
+background-color: white;
+color: #5f9341;
+}
+button:hover{
+transform: scaleY(1.1);
 }
